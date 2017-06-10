@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/splash"
     tools:context="com.openweather.openweather.LoadingSplash.LoadingSplash">
 
     <com.victor.loading.rotate.RotateLoading
@@ -11,8 +12,19 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="370dp"
+        android:layout_marginTop="220dp"
         app:loading_speed="11"
         app:loading_width="5dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rotateloading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="資料讀取中..."
+        android:textColor="#000"
+        android:textSize="20dp" />
 
 </RelativeLayout>
