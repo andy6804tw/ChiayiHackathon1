@@ -34,19 +34,16 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.crashlytics.android.Crashlytics;
 import com.openweather.openweather.DataBase.DBAccessEnvironment;
 import com.openweather.openweather.DataBase.DBAccessWeather;
 import com.openweather.openweather.ExitApplication;
 import com.openweather.openweather.LoadingSplash.GPSTracker;
-import com.openweather.openweather.LoadingSplash.SplashActivity;
+import com.openweather.openweather.LoadingSplash.LoadingSplash;
 import com.openweather.openweather.R;
 import com.openweather.openweather.View.SunBabyLoadingView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import io.fabric.sdk.android.Fabric;
 
 import static android.os.Build.VERSION_CODES.M;
 
@@ -171,7 +168,7 @@ public class WelcomeActivity extends AppCompatActivity {
     private void launchHomeScreen() {
         session.setFirstTimeLaunch(false);
         seconds=3000;
-        startActivity(new Intent(WelcomeActivity.this, SplashActivity.class));
+        startActivity(new Intent(WelcomeActivity.this,LoadingSplash.class));
         finish();
     }
 

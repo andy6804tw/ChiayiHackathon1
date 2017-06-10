@@ -62,5 +62,6 @@ dependencies {
     compile 'com.github.SuperKung:DashboardView:1.2.1'
     compile 'devlight.io:navigationtabbar:1.2.5'
     compile 'com.github.lzyzsd:circleprogress:1.2.1'
+    compile 'com.victor:lib:1.0.4'
     testCompile 'junit:junit:4.12'
 }
