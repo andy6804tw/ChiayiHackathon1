@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.openweather.openweather.AirActuvuty.PM25Fragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2e6c8">
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            custom:arc_bottom_text="0                500"
+            custom:arc_bottom_text_size="14dp"
+            custom:arc_finished_color="#1561bf"
+            custom:arc_max="500"
+            custom:arc_progress="54"
+            custom:arc_stroke_width="6dp"
+            custom:arc_suffix_text_padding="17dp"
+            custom:arc_suffix_text=" "
+            custom:arc_text_size="70dp"
+            custom:arc_unfinished_color="#fff" />
+
+        <TextView
+            android:id="@+id/tvPM25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="空氣指標\nAQI"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/tvHumidity"
+            android:layout_alignEnd="@+id/tvHumidity" />
+
+        <RelativeLayout
+            android:id="@+id/AQIrelativeLayout"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_box_air3"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_below="@+id/tvPM25"
+            android:layout_alignRight="@+id/tvPM25"
+            android:layout_alignEnd="@+id/tvPM25"
+            android:layout_marginTop="18dp">
+
+            <TextView
+                android:id="@+id/tvStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="高"
+                android:textColor="#0d0d0d"
+                android:textSize="20dp" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tvHumidity"
+            android:layout_width="330dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_round_rect"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColor="#222123"
+            android:text="人體健康影響:\n\n對所有人的健康開始產生影響，對於敏感族群可能產生較嚴重的健康影響。"
+            android:textStyle="bold"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/AQIrelativeLayout"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tvNormalsuggest"
+            android:layout_width="330dp"
+            android:layout_height="140dp"
+            android:layout_alignLeft="@+id/tvHumidity"
+            android:layout_alignStart="@+id/tvHumidity"
+            android:layout_below="@+id/tvHumidity"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_round_rect"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="活動建議:\n\n1.一般民眾如果有不適，如眼痛，咳嗽或喉嚨痛等，應減少體力消耗，特別是減少戶外活動。\n2.學生應避免長時間劇烈運動，進行其他戶外活動時應增加休息時間。"
+            android:textColor="#222123"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPublishtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSiteName"
+            android:layout_centerHorizontal="true"
+            android:text="最後更新時間: 2017-04-26 12:01"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tvSiteName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNormalsuggest"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="12dp"
+            android:text="測站: 台南"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+</FrameLayout>

@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.openweather.openweatherair.LoadingSplash.LoadingSplash">
+    tools:context="com.openweather.openweather.LoadingSplash.LoadingSplash">
 
 </android.support.constraint.ConstraintLayout>

@@ -1,68 +1,168 @@
 <resources>
-    <string name="app_name">OpenWeatherAir</string>
+    <string name="app_name">OpenWeather</string>
+    <string name="code00">tornado</string>
+    <string name="code01">tropical storm</string>
+    <string name="code02">hurricane</string>
+    <string name="code03">severe thunderstorms</string>
+    <string name="code04">thunderstorms</string>
+    <string name="code05">mixed rain and snow</string>
+    <string name="code06">mixed rain and sleet</string>
+    <string name="code07">mixed snow and sleet</string>
+    <string name="code08">freezing drizzle</string>
+    <string name="code09">drizzle</string>
+    <string name="code10">freezing rain</string>
+    <string name="code11">showers</string>
+    <string name="code12">showers</string>
+    <string name="code13">snow flurries</string>
+    <string name="code14">light snow showers</string>
+    <string name="code15">blowing snow</string>
+    <string name="code16">snow</string>
+    <string name="code17">hail</string>
+    <string name="code18">sleet</string>
+    <string name="code19">dust</string>
+    <string name="code20">foggy</string>
+    <string name="code21">haze</string>
+    <string name="code22">smoky</string>
+    <string name="code23">blustery</string>
+    <string name="code24">windy</string>
+    <string name="code25">cold</string>
+    <string name="code26">cloudy</string>
+    <string name="code27">mostly cloudy (night)</string>
+    <string name="code28">mostly cloudy (day)</string>
+    <string name="code29">partly cloudy (night)</string>
+    <string name="code30">partly cloudy (day)</string>
+    <string name="code31">clear (night)</string>
+    <string name="code32">sunny</string>
+    <string name="code33">fair (night)</string>
+    <string name="code34">fair (day)</string>
+    <string name="code35">mixed rain and hail</string>
+    <string name="code36">hot</string>
+    <string name="code37">isolated thunderstorms</string>
+    <string name="code38">scattered thunderstorms</string>
+    <string name="code39">scattered thunderstorms</string>
+    <string name="code40">scattered showers</string>
+    <string name="code41">heavy snow</string>
+    <string name="code42">scattered snow showers</string>
+    <string name="code43">heavy snow</string>
+    <string name="code44">partly cloudy</string>
+    <string name="code45">thundershowers</string>
+    <string name="code46">snow showers</string>
+    <string name="code47">isolated thundershowers</string>
+    <string name="code3200">not available</string>
 
-    <string name="code00">龍捲風</string>
-    <string name="code01">熱帶風暴</string>
-    <string name="code02">颶風</string>
-    <string name="code03">劇烈雷雨</string>
-    <string name="code04">雷暴</string>
-    <string name="code05">雨夾雪</string>
-    <string name="code06">下雨和結霜</string>
-    <string name="code07">下雪和結霜</string>
-    <string name="code08">凍毛雨</string>
-    <string name="code09">濛濛細雨</string>
-    <string name="code10">凍雨</string>
-    <string name="code11">陣雨</string>
-    <string name="code12">陣雨</string>
-    <string name="code13">飄雪花</string>
-    <string name="code15">吹雪</string>
-    <string name="code14">輕雪陣雨</string>
-    <string name="code16">下雪</string>
-    <string name="code17">冰雹</string>
-    <string name="code18">結霜</string>
-    <string name="code19">粉塵</string>
-    <string name="code20">有霧</string>
-    <string name="code21">陰霾</string>
-    <string name="code22">煙霧</string>
-    <string name="code23">颳大風</string>
-    <string name="code24">颳風</string>
-    <string name="code25">寒冷</string>
-    <string name="code26">多雲</string>
-    <string name="code27">多雲(夜)</string>
-    <string name="code28">多雲(日)</string>
-    <string name="code29">局部陰天(夜)</string>
-    <string name="code30">局部陰天(日)</string>
-    <string name="code31">晴天(夜)</string>
-    <string name="code32">晴天</string>
-    <string name="code3200">未定義</string>
-    <string name="code33">晴天(夜)</string>
-    <string name="code34">晴天(日)</string>
-    <string name="code35">下雨和冰雹</string>
-    <string name="code36">炎熱</string>
-    <string name="code37">局部雷雨</string>
-    <string name="code38">零星雷雨</string>
-    <string name="code39">零星雷雨</string>
-    <string name="code40">零星陣雨</string>
-    <string name="code41">暴雪</string>
-    <string name="code42">零星帶雪陣雨</string>
-    <string name="code43">暴雪</string>
-    <string name="code44">局部多雲</string>
-    <string name="code45">雷暴</string>
-    <string name="code46">陣雪</string>
-    <string name="code47">單一雷暴</string>
+    <string name="N">N</string>
+    <string name="NNE">NNE</string>
+    <string name="NE">NE</string>
+    <string name="ENE">ENE</string>
+    <string name="E">E</string>
+    <string name="ESE">ESE</string>
+    <string name="SE">SE</string>
+    <string name="SSE">SSE</string>
+    <string name="S">S</string>
+    <string name="SSW">SSW</string>
+    <string name="SW">SW</string>
+    <string name="WSW">WSW</string>
+    <string name="W">W</string>
+    <string name="WNW">WNW</string>
+    <string name="NW">NW</string>
+    <string name="NNW">NNW</string>
 
-    <string name="speed0">無風</string>
-    <string name="speed1">軟風</string>
-    <string name="speed2">輕風</string>
-    <string name="speed3">微風</string>
-    <string name="speed4">和風</string>
-    <string name="speed5">清風</string>
-    <string name="speed6">強風</string>
-    <string name="speed7">疾風</string>
-    <string name="speed8">大風</string>
-    <string name="speed9">烈風</string>
-    <string name="speed10">暴風</string>
-    <string name="speed11">狂風</string>
-    <string name="speed12">颶風</string>
+
+    <string name="speed0">Calm</string>
+    <string name="speed1">Light air</string>
+    <string name="speed2">Light breeze</string>
+    <string name="speed3">Gentle breeze</string>
+    <string name="speed4">Moderate breeze</string>
+    <string name="speed5">Fresh breeze</string>
+    <string name="speed6">Strong breeze</string>
+    <string name="speed7">Near gale</string>
+    <string name="speed8">Gale</string>
+    <string name="speed9">Strong gale</string>
+    <string name="speed10">Storm</string>
+    <string name="speed11">Violent storm</string>
+    <string name="speed12">Hurricane</string>
+
+
+    <string name="Today">Today</string>
+    <string name="Tomorrow">Tomorrow</string>
+    <string name="Sun">Sun</string>
+    <string name="Mon">Mon</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Thu">Thu</string>
+    <string name="Fri">Fri</string>
+    <string name="Sat">Sat</string>
+
+    <string name="SelectCity">Select City</string>
+    <string name="Keelung">Keelung City</string>
+    <string name="NewTaipei">New Taipei City</string>
+    <string name="Taipei">Taipei City</string>
+    <string name="Hsinchu">Hsinchu City</string>
+    <string name="HsinchuCountry">Hsinchu Country</string>
+    <string name="Taichung">Taichung City</string>
+    <string name="Tainan">Tainan City</string>
+    <string name="Kaohsiung">Kaohsiung City</string>
+    <string name="Yilan">Yilan Country</string>
+    <string name="Taoyuan">Taoyuan City</string>
+    <string name="Miaoli">Miaoli Country</string>
+    <string name="Changhua">Changhua Country</string>
+    <string name="Nantou">Nantou Country</string>
+    <string name="Yunlin">Yunlin Country</string>
+    <string name="Chiayi">Chiayi City</string>
+    <string name="ChiayiCountry">Chiayi Country</string>
+    <string name="Pingtung">Pingtung Country</string>
+    <string name="Taitung">Taitung</string>
+    <string name="Hualien">Hualien Country</string>
+    <string name="Penghu">Penghu Country</string>
+    <string name="Kinmen">Kinmen Country</string>
+    <string name="Lienchiang">Lienchiang Country</string>
+
+    <string name="tv_condition">Condition</string>
+    <string name="tvChill">Feel: </string>
+    <string name="tv_wind">Wind speed and direction</string>
+    <string name="tv_atmosphere">Atmospheric and Air pressure</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="visiblity">Visiblity</string>
+    <string name="tvAstronomy">Astronomy</string>
+    <string name="tvForecast">Forecast</string>
+    <string name="tvBack">back</string>
+    <string name="wind_class">wind class</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="uv_suggest1">對人體無太大影響，外出時戴上太陽帽即可</string>
+    <string name="uv_suggest2">外出時除戴上太陽帽外還需備太陽鏡，並在身上塗上防晒霜，以避免皮膚受到太陽輻射的危害</string>
+    <string name="uv_suggest3">帽子/洋傘+防曬乳液+太陽眼鏡,盡量待在陰涼處</string>
+    <string name="uv_suggest4">帽子/陽傘+防曬液+太陽眼鏡+陰涼處+長袖衣物,上午十時至下午二時最好不外出</string>
+    <string name="uv_suggest5">帽子/陽傘+防曬液+太陽眼鏡+陰涼處+長袖衣物,上午十時至下午二時最好不外出</string>
+
+    <string-array name="meter">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
 
 </resources>

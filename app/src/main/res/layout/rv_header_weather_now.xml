@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.github.pwittchen.weathericonview.WeatherIconView
+            android:id="@+id/my_weather_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            custom:weatherIconColor="@android:color/black"
+            custom:weatherIconResource="@string/wi_day_sunny_overcast"
+            custom:weatherIconSize="70" />
+
+        <TextView
+            android:id="@+id/tvWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tableRow2"
+            android:layout_centerHorizontal="true"
+            android:text="晴時多雲"
+            android:textColor="@android:color/background_light" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/ivLow"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignBottom="@+id/tvHigh"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/tvHigh"
+                android:layout_toRightOf="@+id/tvHigh"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/low" />
+
+            <TextView
+                android:id="@+id/tvLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ivLow"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/ivLow"
+                android:layout_toRightOf="@+id/ivLow"
+                android:text="18°"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ivHigh"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignLeft="@+id/tvTemp"
+                android:layout_alignStart="@+id/tvTemp"
+                android:layout_alignTop="@+id/tvTemp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/high" />
+
+            <TextView
+                android:id="@+id/tvHigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ivHigh"
+                android:layout_marginLeft="3dp"
+                android:layout_marginStart="3dp"
+                android:layout_toEndOf="@+id/ivHigh"
+                android:layout_toRightOf="@+id/ivHigh"
+                android:text="30°"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tvTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-10dp"
+            android:layout_marginTop="-25dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="16°"
+            android:textColor="@android:color/background_light"
+            android:textSize="120sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

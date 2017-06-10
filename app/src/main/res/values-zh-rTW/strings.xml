@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenWeather</string>
+    <string name="code00">龍捲風</string>
+    <string name="code01">熱帶風暴</string>
+    <string name="code02">颶風</string>
+    <string name="code03">劇烈雷雨</string>
+    <string name="code04">雷暴</string>
+    <string name="code05">雨夾雪</string>
+    <string name="code06">下雨和結霜</string>
+    <string name="code07">下雪和結霜</string>
+    <string name="code08">凍毛雨</string>
+    <string name="code09">濛濛細雨</string>
+    <string name="code10">凍雨</string>
+    <string name="code11">陣雨</string>
+    <string name="code12">陣雨</string>
+    <string name="code13">飄雪花</string>
+    <string name="code15">吹雪</string>
+    <string name="code14">輕雪陣雨</string>
+    <string name="code16">下雪</string>
+    <string name="code17">冰雹</string>
+    <string name="code18">結霜</string>
+    <string name="code19">粉塵</string>
+    <string name="code20">有霧</string>
+    <string name="code21">陰霾</string>
+    <string name="code22">煙霧</string>
+    <string name="code23">颳大風</string>
+    <string name="code24">颳風</string>
+    <string name="code25">寒冷</string>
+    <string name="code26">多雲</string>
+    <string name="code27">多雲(夜)</string>
+    <string name="code28">多雲(日)</string>
+    <string name="code29">局部陰天(夜)</string>
+    <string name="code30">局部陰天(日)</string>
+    <string name="code31">晴天(夜)</string>
+    <string name="code32">晴天</string>
+    <string name="code3200">未定義</string>
+    <string name="code33">晴天(夜)</string>
+    <string name="code34">晴天(日)</string>
+    <string name="code35">下雨和冰雹</string>
+    <string name="code36">炎熱</string>
+    <string name="code37">局部雷雨</string>
+    <string name="code38">零星雷雨</string>
+    <string name="code39">零星雷雨</string>
+    <string name="code40">零星陣雨</string>
+    <string name="code41">暴雪</string>
+    <string name="code42">零星帶雪陣雨</string>
+    <string name="code43">暴雪</string>
+    <string name="code44">局部多雲</string>
+    <string name="code45">雷暴</string>
+    <string name="code46">陣雪</string>
+    <string name="code47">單一雷暴</string>
+
+    <string name="N">北</string>
+    <string name="NNE">東北偏北</string>
+    <string name="NE">東北</string>
+    <string name="ENE">東北偏東</string>
+    <string name="E">東</string>
+    <string name="ESE">東南偏東</string>
+    <string name="SE">東南</string>
+    <string name="SSE">東南偏南</string>
+    <string name="S">南</string>
+    <string name="SSW">西南偏南</string>
+    <string name="SW">西南</string>
+    <string name="WSW">西南偏西</string>
+    <string name="W">西</string>
+    <string name="WNW">西北偏西</string>
+    <string name="NW">西北</string>
+    <string name="NNW">西北偏北</string>
+
+    <string name="speed0">無風</string>
+    <string name="speed1">軟風</string>
+    <string name="speed2">輕風</string>
+    <string name="speed3">微風</string>
+    <string name="speed4">和風</string>
+    <string name="speed5">清風</string>
+    <string name="speed6">強風</string>
+    <string name="speed7">疾風</string>
+    <string name="speed8">大風</string>
+    <string name="speed9">烈風</string>
+    <string name="speed10">暴風</string>
+    <string name="speed11">狂風</string>
+    <string name="speed12">颶風</string>
+
+    <string name="Today">今天</string>
+    <string name="Tomorrow">明天</string>
+    <string name="Sun">星期日</string>
+    <string name="Mon">星期一</string>
+    <string name="Tue">星期二</string>
+    <string name="Wed">星期三</string>
+    <string name="Thu">星期四</string>
+    <string name="Fri">星期五</string>
+    <string name="Sat">星期六</string>
+
+    <string name="SelectCity">選擇城市</string>
+    <string name="Keelung">基隆市</string>
+    <string name="NewTaipei">新北市</string>
+    <string name="Taipei">臺北市</string>
+    <string name="Hsinchu">新竹市</string>
+    <string name="HsinchuCountry">新竹縣</string>
+    <string name="Taichung">臺中市</string>
+    <string name="Tainan">台南市</string>
+    <string name="Kaohsiung">高雄市</string>
+    <string name="Yilan">宜蘭縣</string>
+    <string name="Taoyuan">桃園市</string>
+    <string name="Miaoli">苗栗縣</string>
+    <string name="Changhua">彰化縣</string>
+    <string name="Nantou">南投縣</string>
+    <string name="Yunlin">雲林縣</string>
+    <string name="Chiayi">嘉義市</string>
+    <string name="ChiayiCountry">嘉義縣</string>
+    <string name="Pingtung">屏東縣</string>
+    <string name="Taitung">臺東縣</string>
+    <string name="Hualien">花蓮縣</string>
+    <string name="Penghu">澎湖縣</string>
+    <string name="Kinmen">金門縣</string>
+    <string name="Lienchiang">連江縣</string>
+
+    <string name="tv_condition">目前狀況</string>
+    <string name="tvChill">體感溫度: </string>
+    <string name="tv_wind">風速和風向</string>
+    <string name="tv_atmosphere">大氣和氣壓</string>
+    <string name="pressure">氣壓</string>
+    <string name="humidity">濕度</string>
+    <string name="visiblity">能見度</string>
+    <string name="tvAstronomy">天文</string>
+    <string name="tvForecast">預報</string>
+    <string name="tvBack">返回</string>
+    <string name="wind_class">級</string>
+
+    <string name="title_activity_welcome">主畫面</string>
+    <string name="next">下一個</string>
+    <string name="skip">跳過</string>
+    <string name="start">開始</string>
+    <string name="slide_1_title">即時天氣</string>
+    <string name="slide_1_desc">OpenWeather精準即時掌握天氣!</string>
+    <string name="slide_2_title">氣象預報</string>
+    <string name="slide_2_desc">我們提供5日以及10日的天氣預報</string>
+    <string name="slide_3_title">空氣品質</string>
+    <string name="slide_3_desc">包含AQI、PM2.5以及多項環境即時資訊</string>
+    <string name="slide_4_title">紫外線</string>
+    <string name="slide_4_desc">即時的紫外線數據，並且能一目了然知道即時情況</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="uv_suggest1">對人體無太大影響，外出時戴上太陽帽即可</string>
+    <string name="uv_suggest2">外出時除戴上太陽帽外還需備太陽鏡，並在身上塗上防晒霜，以避免皮膚受到太陽輻射的危害</string>
+    <string name="uv_suggest3">帽子/洋傘+防曬乳液+太陽眼鏡,盡量待在陰涼處</string>
+    <string name="uv_suggest4">帽子/陽傘+防曬液+太陽眼鏡+陰涼處+長袖衣物,上午十時至下午二時最好不外出</string>
+    <string name="uv_suggest5">帽子/陽傘+防曬液+太陽眼鏡+陰涼處+長袖衣物,上午十時至下午二時最好不外出</string>
+
+    <string-array name="meter">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
