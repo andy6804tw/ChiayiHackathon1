@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 
 /**
- * Created by andy6804tw on 2017/4/22.
+ * Created by andy6804tw on 2017/6/10.
  */
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {

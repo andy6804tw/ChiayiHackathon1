@@ -1,7 +1,7 @@
 package com.openweather.openweather.WeatherNowActivity;
 
 /**
- * Created by andy6804tw on 2017/2/24.
+ * Created by andy6804tw on 2017/6/10.
  */
 
 import android.content.Context;
@@ -26,10 +26,6 @@ import com.openweather.openweather.View.WeatherChartView;
 import com.openweather.sunviewlibrary.SunView;
 
 import static android.content.Context.MODE_PRIVATE;
-
-/**
- * Created by andy6804tw on 2017/1/25.
- */
 
 public class WeatherNowRVA extends RecyclerView.Adapter<WeatherNowRVA.ViewHolder> {
 

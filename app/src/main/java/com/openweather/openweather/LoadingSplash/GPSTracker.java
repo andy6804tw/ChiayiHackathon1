@@ -21,7 +21,7 @@ import android.util.Log;
 import static android.os.Build.VERSION_CODES.M;
 
 /**
- * Created by andy6804tw on 2017/2/26.
+ * Created by andy6804tw on 2017/6/10.
  */
 
 public class GPSTracker extends Service implements LocationListener {

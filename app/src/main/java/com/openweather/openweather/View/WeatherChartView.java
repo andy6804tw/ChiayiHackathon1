@@ -1,7 +1,7 @@
 package com.openweather.openweather.View;
 
 /**
- * Created by andy6804tw on 2017/3/16.
+ * Created by andy6804tw on 2017/6/10.
  */
 
 import android.content.Context;
@@ -41,12 +41,6 @@ import com.openweather.openweather.R;
 //*-----------------------------------------*
 
 
-/**
- * 折线温度双曲线
- *
- * @author 咖枯
- * @version 1.0 2015/11/06
- */
 public class WeatherChartView extends View {
 
     /**

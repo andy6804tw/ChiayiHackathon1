@@ -1,7 +1,7 @@
 package com.openweather.openweather;
 
 /**
- * Created by andy6804tw on 2017/2/25.
+ * Created by andy6804tw on 2017/6/10.
  */
 
 import android.app.Activity;

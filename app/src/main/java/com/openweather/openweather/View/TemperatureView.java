@@ -1,7 +1,7 @@
 package com.openweather.openweather.View;
 
 /**
- * Created by andy6804tw on 2017/3/2.
+ * Created by andy6804tw on 2017/6/10.
  */
 
 import android.animation.AnimatorSet;
@@ -20,9 +20,6 @@ import android.widget.Scroller;
 
 import com.openweather.openweather.R;
 
-/**
- * Created by Ibore on 2017/2/24.
- */
 
 public class TemperatureView extends View {
 

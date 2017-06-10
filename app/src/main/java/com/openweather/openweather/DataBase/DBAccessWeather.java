@@ -10,7 +10,7 @@ import android.util.Log;
 import com.openweather.openweather.R;
 
 /**
- * Created by andy6804tw on 2017/2/26.
+ * Created by andy6804tw on 2017/6/10.
  */
 
 public class DBAccessWeather extends SQLiteOpenHelper {
